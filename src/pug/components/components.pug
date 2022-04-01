@@ -1,0 +1,12 @@
+include ../mixins/categary-block.pug
+
+h2.subtitle 
+    span.shop Shop By 
+    | Categories
+section.categories
+    +category-block("./assets/imgs/catehories-apple.svg", 'Vegetables & Fruits')
+    +category-block("./assets/imgs/catehories-car.svg", 'Grocery & Staples')
+    +category-block("./assets/imgs/catehories-milk.svg", 'Dairy & Eggs')
+    +category-block("./assets/imgs/catehories-food.svg", 'Beverages')
+    +category-block("./assets/imgs/catehories-burger.svg", 'Snacks')
+    +category-block("./assets/imgs/catehories-home.svg", 'Home Care')

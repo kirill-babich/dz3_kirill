@@ -1,0 +1,47 @@
+include ../mixins/slider-item.pug
+    
+.slider
+    .swiper
+ 
+        .swiper-wrapper
+
+            .swiper-slide 
+                +slider-item(
+                    {
+                    img:"./assets/imgs/slider/first.jpg",
+                    sale:'6% OFF',
+                    title:'Buy More & Save More',
+                    text:'Beverage',
+                    })
+            .swiper-slide 
+                +slider-item(
+                    {
+                    img:"./assets/imgs/slider/second.jpg",
+                    sale:'10% OFF',
+                    title:'Buy More & Save More',
+                    text:'Nuts & Snacks',
+                    })
+            .swiper-slide 
+                +slider-item(
+                    {
+                    img:"./assets/imgs/slider/third.jpg",
+                    sale:'6% OFF',
+                    title:'Buy More & Save More',
+                    text:'Fresh Vegetables',
+                    })
+            .swiper-slide 
+                +slider-item(
+                    {
+                    img:"./assets/imgs/slider/fouth.jpg",
+                    sale:'25% OFF',
+                    title:'Buy More & Save More',
+                    text:'Fresh Fruits',
+                    })
+            .swiper-slide 
+                +slider-item(
+                    {
+                    img:"./assets/imgs/slider/fifth.jpg",
+                    sale:'15% OFF',
+                    title:'Buy More & Save More',
+                    text:'Eggs & Diary',
+                    })

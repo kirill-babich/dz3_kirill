@@ -1,0 +1,8 @@
+mixin slider-item(args={})
+    .slider-item
+        img(class='slider-item__img' src=args.img).slider-item__img
+        .slider-item__content
+            span.slider-item__sale=args.sale
+            span.slider-item__title=args.title
+            span.slider-item__text=args.text
+        button.slider-item__button SHOP NOW

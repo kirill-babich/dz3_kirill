@@ -1,0 +1,21 @@
+@import './main/reset.scss';
+@import './components/catigories.scss';
+@import './main/vars.scss';
+//@import './components/slider.scss';
+
+html{
+    color:rgba(42, 42, 42, 1);
+    background: #E5E5E5;
+    font-size: 16px;
+    line-height: 121%;
+    font-weight: normal;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
