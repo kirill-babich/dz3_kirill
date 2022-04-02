@@ -1,0 +1,11 @@
+mixin product-item(args={})
+    .product-block
+        button.product-block__button=args.button
+        img(class='product-block__heart' src=args.heart)
+        img(class='product-block__background' src=args.background)
+        p.product-block__title=args.title
+        h3.product-block__content=args.content
+        span.product-block__price=args.price
+        .prosuct-block__number 
+            img(class='product-block__image' src=args.image)
+            img(class='product-block__car' src=args.car)
