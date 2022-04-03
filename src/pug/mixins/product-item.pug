@@ -1,3 +1,6 @@
+h2.subtitle 
+    span.shop For You
+    | Top Featured Products
 mixin product-item(args={})
     .product-block
         button.product-block__button=args.button
@@ -5,7 +8,9 @@ mixin product-item(args={})
         img(class='product-block__background' src=args.background)
         p.product-block__title=args.title
         h3.product-block__content=args.content
-        span.product-block__price=args.price
+        .prosuct-block__price
+            span.product-block__origin=args.origin
+            span.product-block__fake=args.fake
         .prosuct-block__number 
             img(class='product-block__image' src=args.image)
             img(class='product-block__car' src=args.car)
